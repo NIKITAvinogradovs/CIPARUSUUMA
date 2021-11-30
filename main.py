@@ -1,8 +1,10 @@
-def countZeros(Z):
-  return summa.count("0")
-summa = input("Ievadi tekstu: ")
-rez = countZeros(summa)
-if rez < 1:
-  print ("Teksta nav nulles")
-print(rez)
-   
+text = input("Ievadi teikumu; ")
+if text.count("e")>0:
+  text = text.replace("e", " ")
+  text = text.upper()
+  print (text)
+else:
+  t = "TEKSTA NAV VAJADZIGS BURTS!!!!!"
+  print (t)
+  
+
