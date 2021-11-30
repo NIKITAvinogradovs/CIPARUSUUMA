@@ -1,0 +1,2 @@
+def CountNumbers (teksts):
+  s
